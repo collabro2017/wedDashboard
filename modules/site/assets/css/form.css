@@ -1,0 +1,65 @@
+.form-control {
+    -webkit-transition : all 0.5s;
+    -moz-transition    : all 0.5s;
+    -ms-transition     : all 0.5s;
+    -o-transition      : all 0.5s;
+    transition         : all 0.5s;
+    -webkit-box-shadow : 0 0;
+    -moz-box-shadow    : 0 0;
+    box-shadow         : 0 0;
+    height             : 40px;
+}
+
+.form-control:focus {
+    -webkit-box-shadow : 0 0 10px 2px #cccccc;
+    -moz-box-shadow    : 0 0 10px 2px #cccccc;
+    box-shadow         : 0 0 10px 2px #cccccc;
+    border-color       : #bbbbbb;
+}
+
+.input-group .form-control {
+    border-radius : 0;
+}
+
+.input-group-addon {
+    padding       : 0 0 0 10px;
+    border-radius : 0;
+    border        : none;
+}
+
+.wedding-item {
+    margin             : 15px 0;
+    padding            : 15px;
+    text-align         : center;
+    color              : #c2c2c2;
+    font-size          : 18px;
+    background-color   : #ffffff;
+    -webkit-box-shadow : 0 0;
+    -moz-box-shadow    : 0 0;
+    box-shadow         : 0 0;
+    border             : 1px solid #bbbbbb;
+    display            : block;
+    text-decoration    : none !important;
+}
+
+.wedding-item > span {
+    display : block;
+    margin  : 5px 0;
+}
+
+.wedding-item:hover,
+.wedding-item:focus {
+    -webkit-box-shadow : 0 0 10px 2px #cccccc;
+    -moz-box-shadow    : 0 0 10px 2px #cccccc;
+    box-shadow         : 0 0 10px 2px #cccccc;
+}
+
+.wedding-item .title {
+    font-size   : 24px;
+    color       : #45bfbb;
+    font-family : 'lobster', sans-serif;
+}
+
+.wedding-item .id {
+    color : #8f7c9b;
+}

@@ -1,0 +1,82 @@
+{
+  "name": "yiisoft/yii2-app-basic",
+  "description": "Yii 2 Basic Application Template",
+  "keywords": [
+    "yii2",
+    "framework",
+    "basic",
+    "application template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0",
+    "yiisoft/yii2-bootstrap": "~2.0",
+    "yiisoft/yii2-debug": "~2.0",
+    "yiisoft/yii2-swiftmailer": "~2.0",
+    "yiisoft/yii2-imagine": "~2.0",
+    "yiisoft/yii2-jui": "~2.0",
+    "yiisoft/yii2-jui": "~2.0.0",
+    "yiisoft/yii2-gii": "~2.0",
+    "voodoo-rocks/yii2vm": "dev-master",
+    "voodoo-rocks/yii2vm-pushes": "dev-master",
+    "2amigos/yii2-editable-widget": "*",
+    "2amigos/yii2-file-upload-widget": "*",
+    "2amigos/yii2-date-picker-widget": "~1.0",
+    "devgroup/yii2-dropzone": "dev-master",
+    "bower-asset/jquery-fullscreen": "^1.1",
+    "2amigos/yii2-selectize-widget": "^1.0",
+    "bower-asset/nprogress": "^0.2.0",
+    "bower-asset/font-awesome": "^4.7",
+    "bower-asset/animate.css": "^3.5",
+    "bower-asset/fastclick": "^1.0",
+    "zip-factory/zip-factory": "dev-master",
+    "2amigos/yii2-grid-view-library": "^0.1.1",
+    "yii2tech/csv-grid": "^1.0@dev"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "2.0.*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-faker": "*",
+    "codeception/codeception": "2.0.*",
+    "codeception/phpbuiltinserver": "*",
+    "codeception/verify": "*",
+    "codeception/specify": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "yii\\composer\\Installer::postCreateProject"
+    ]
+  },
+  "extra": {
+    "yii\\composer\\Installer::postCreateProject": {
+      "setPermission": [
+        {
+          "runtime": "0777",
+          "web/assets": "0777",
+          "yii": "0755"
+        }
+      ],
+      "generateCookieValidationKey": [
+        "config/web.php"
+      ]
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

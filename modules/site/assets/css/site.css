@@ -1,0 +1,329 @@
+html,
+body,
+body > .container,
+body > .container > .row {
+    height : 100%;
+}
+
+body {
+    font-family : 'questrial', sans-serif;
+    font-size   : 12px;
+    padding-top : 70px;
+    color       : #45433f;
+}
+
+body > .container-fluid,
+body > .container-fluid > .row {
+    height : 100%;
+}
+
+.header {
+    padding : 10px 0;
+}
+
+.header > i {
+    margin-right : 10px;
+}
+
+.header h3 img {
+    width        : 70px;
+    height       : 70px;
+    margin-right : 25px;
+}
+
+.header-title {
+    margin           : 0 -20px;
+    padding          : 10px 20px;
+    background-color : #ebe9ec;
+}
+
+.content {
+    background-color : #f2f2f2;
+    min-height       : 100%;
+    padding          : 0 20px;
+}
+
+.content-body {
+    padding : 15px 10px;
+}
+
+.content-body > .header {
+    margin-bottom : 15px;
+}
+
+.photoset-grid-lightbox {
+    -webkit-transition : opacity 0.5s 0s linear;
+    -moz-transition    : opacity 0.5s 0s linear;
+    -ms-transition     : opacity 0.5s 0s linear;
+    -o-transition      : opacity 0.5s 0s linear;
+    transition         : opacity 0.5s 0s linear;
+    opacity            : 1;
+}
+
+.photoset-cell {
+    padding-left  : 5px !important;
+    padding-right : 5px !important;
+}
+
+.cboxElement {
+    width : 12.5% !important;
+}
+
+.button-slideshow {
+    background-color : #f7f7f7;
+    padding-right    : 20px;
+}
+
+.button-slideshow span {
+    padding-left : 15px;
+}
+
+.button-slideshow span:hover {
+    color : black;
+}
+
+.thumbnail-block {
+    display        : inline-block;
+    vertical-align : top;
+    float          : none;
+    padding        : 5px;
+}
+
+.thumbnail {
+    margin   : 0;
+    padding  : 5px;
+    position : relative;
+    overflow : hidden;
+}
+
+.thumbnail-header {
+    position : relative;
+    padding  : 0 10px 5px 10px;
+}
+
+.thumbnail-header img {
+    margin-right : 5px;
+}
+
+.thumbnail-author {
+    display : inline-block;
+    width   : calc(100% - 38px);
+}
+
+.thumbnail-choice {
+    display : inline-block;
+}
+
+.thumbnail-body {
+    height     : 360px;
+    overflow-y : hidden;
+    text-align : center;
+}
+
+.thumbnail-body img {
+    width     : 100%;
+    position  : relative;
+    top       : 50%;
+    transform : translateY(-50%);
+    cursor    : pointer;
+}
+
+.thumbnail .caption {
+    padding : 10px 0;
+}
+
+.thumbnail .caption h3 {
+    white-space   : nowrap;
+    overflow      : hidden;
+    text-overflow : ellipsis;
+    max-width     : 100%;
+}
+
+.thumbnail video {
+    max-width  : 100%;
+    max-height : 100%;
+}
+
+.photoset-grid-lightbox {
+    padding : 0 5px;
+}
+
+.invisible {
+    opacity : 0;
+}
+
+.toggle-comment {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    right            : 0;
+    bottom           : 0;
+    z-index          : 10;
+    background-color : #ffffff;
+    border-radius    : 5px;
+}
+
+.toggle-thumbnail, .toggle-comment {
+    -webkit-transition : all 500ms;
+    -moz-transition    : all 500ms;
+    -ms-transition     : all 500ms;
+    -o-transition      : all 500ms;
+    transition         : all 500ms;
+    -webkit-transform  : rotateY(0deg);
+    -moz-transform     : rotateY(0deg);
+    -ms-transform      : rotateY(0deg);
+    -o-transform       : rotateY(0deg);
+    transform          : rotateY(0deg);
+    transform-style    : preserve-3d;
+}
+
+.toggle-comment.invisible,
+.toggle-thumbnail.invisible {
+    -webkit-transition : all 500ms;
+    -moz-transition    : all 500ms;
+    -ms-transition     : all 500ms;
+    -o-transition      : all 500ms;
+    transition         : all 500ms;
+    -webkit-transform  : rotateY(-180deg);
+    -moz-transform     : rotateY(-180deg);
+    -ms-transform      : rotateY(-180deg);
+    -o-transform       : rotateY(-180deg);
+    transform          : rotateY(-180deg);
+    transform-style    : preserve-3d;
+}
+
+.comments {
+    overflow-y    : auto;
+    padding       : 15px;
+    margin-bottom : 125px;
+    max-height    : calc(100% - 125px);
+}
+
+.comments img {
+    width  : 30px;
+    height : 30px;
+    float  : left;
+}
+
+.comment {
+    margin-bottom : 10px;
+}
+
+.comment:first-child {
+    padding-right : 30px;
+}
+
+.comment p {
+    margin : 0 0 0 40px;
+}
+
+.comment-text {
+    color : #7aa7de;
+}
+
+.toggle-comment form {
+    position : absolute;
+    bottom   : 10px;
+    left     : -5px;
+    right    : -5px;
+}
+
+.toggle-comment form .form-group {
+    margin : 0;
+}
+
+.toggle-comment form .form-control {
+    border           : 1px solid #ccd4d4;
+    background-color : #f7f7f7;
+    resize           : none;
+    border-radius    : 0;
+    border-left      : none;
+    border-right     : none;
+    box-shadow       : 0 0;
+    height           : 60px;
+}
+
+/*@media (-webkit-min-device-pixel-ratio : 0) {
+    #colorbox,
+    #cboxOverlay,
+    #cboxWrapper {
+        background-color : transparent;
+    }
+} */
+
+#cboxFullscreen {
+    display             : block;
+    border              : none;
+    width               : 12px;
+    height              : 12px;
+    position            : absolute;
+    top                 : -14px;
+    right               : 25px;
+    background-color    : transparent;
+    padding             : 0;
+    cursor              : pointer;
+    background-image    : url('../images/full-screen.png');
+    background-position : left center;
+}
+
+#cboxFullscreen.fullScreen {
+    background-position : right center;
+}
+
+#cboxNext {
+    right : 44px !important;
+}
+
+#cboxSlideshow {
+    right : 66px !important;
+}
+
+.cboxSlideshow_off #cboxSlideshow {
+    background-position : -75px -25px;
+}
+
+.cboxSlideshow_on #cboxSlideshow {
+    background-position : -100px 0;
+}
+
+#cboxPrevious {
+    right : 88px !important;
+}
+
+.thumbnail-photo-overlay {
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    width      : 100%;
+    height     : 100%;
+    background : rgba(0, 0, 0, 0.9);
+    z-index    : 9999;
+    display    : none;
+}
+
+.thumbnail-photo-overlay .thumbnail-photo-overlay-close {
+    display     : block;
+    position    : absolute;
+    top         : 20px;
+    right       : 20px;
+    width       : 40px;
+    height      : 40px;
+    line-height : 35px;
+    font-size   : 20px;
+    color       : #eeeeee;
+    text-align  : center;
+    cursor      : pointer;
+}
+
+.thumbnail-photo-overlay img {
+    max-width         : 100%;
+    height            : auto;
+    max-height        : 100%;
+    position          : absolute;
+    top               : 50%;
+    left              : 50%;
+    -webkit-transform : translate(-50%, -50%);
+    -moz-transform    : translate(-50%, -50%);
+    -o-transform      : translate(-50%, -50%);
+    transform         : translate(-50%, -50%);
+}

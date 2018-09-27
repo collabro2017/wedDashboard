@@ -1,0 +1,106 @@
+.navbar {
+    margin-bottom : 0;
+    min-height    : 70px;
+}
+
+.navbar-inverse {
+    background-color : #ffffff;
+    border-color     : lightgrey;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color     : #b6acba;
+    padding   : 20px;
+    font-size : 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color : #6d6473;
+}
+
+.navbar-inverse .navbar-nav > li > a > span {
+    position : relative;
+    top      : 2px;
+}
+
+.navbar-inverse .navbar-nav > li > a > i {
+    margin-right : 15px;
+}
+
+.navbar-brand {
+    height : auto;
+}
+
+.menu {
+    background-color : #ffffff;
+    padding          : 0;
+}
+
+.menu-img img {
+    width : 100%;
+}
+
+.menu .block-id {
+    background-color : #6d6473;
+    color            : #cdcdcd;
+    text-align       : center;
+    font-size        : 18px;
+    text-transform   : uppercase;
+    padding          : 20px;
+}
+
+.menu .block-id span {
+    color : #ffffff;
+}
+
+.menu .nav {
+    padding        : 0 0 20px 0;
+    text-transform : uppercase;
+}
+
+.menu .nav li {
+    border-bottom : 1px solid #f7f7f7;
+}
+
+.menu .nav > li > a {
+    padding       : 25px 20px;
+    border-radius : 0;
+    display       : flex;
+    align-items   : center;
+}
+
+.menu .nav > li > a > .count-badge {
+    background-color : #ebe9ec;
+    border-radius    : 50%;
+    padding          : 0 14px;
+    height           : 28px;
+    position         : relative;
+}
+
+.menu .nav > li > a > .count-badge p {
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    transform : translate(-50%, -50%);
+}
+
+.menu .nav > li.active > a,
+.menu .nav > li.active > a:hover,
+.menu .nav > li.active > a:focus {
+    background : #8f7c9b;
+    color      : #ffffff;
+}
+
+.menu .nav > li > a:hover, .menu .nav > li > a:focus {
+    background-color : #f2f2f2;
+}
+
+.menu .nav > li > a > span {
+    vertical-align : middle;
+    display        : inline-block;
+    font-size      : 14px;
+}
+
+.menu .nav > li > a > i {
+    margin-right : 20px;
+}

@@ -1,0 +1,77 @@
+* {
+    font-weight : normal;
+    line-height : normal;
+    outline     : none !important;
+}
+
+img {
+    max-width : 100%;
+}
+
+a {
+    color : #173448;
+}
+
+a:hover, a:focus {
+    color : #234564;
+}
+
+.color-light {
+    color : #a1a1a1;
+}
+
+.questrial {
+    font-family : 'questrial', sans-serif !important;
+}
+
+.lobster {
+    font-family : 'lobster', sans-serif !important;
+}
+
+.uppercase {
+    text-transform : uppercase;
+}
+
+.text-big {
+    font-size : 16px;
+}
+
+.text-large {
+    font-size : 18px;
+}
+
+.text-small {
+    font-size : 10px;
+}
+
+h1 {
+    font-size   : 24px;
+    color       : #45bfbb;
+    font-family : 'lobster', sans-serif;
+    text-align  : center;
+    margin      : 0;
+    line-height : 30px;
+}
+
+h2 {
+    font-size      : 18px;
+    color          : #8f7c9b;
+    margin         : 0;
+    line-height    : 30px;
+    text-transform : uppercase;
+}
+
+h3 {
+    color     : #45433f;
+    font-size : 26px;
+    padding   : 0 0 10px;
+    margin    : 0;
+}
+
+h4 {
+    font-size   : 14px;
+    font-family : 'lobster', sans-serif;
+    text-align  : center;
+    color       : #dad3dd;
+    margin      : 0 0 10px;
+}

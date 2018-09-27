@@ -1,0 +1,5 @@
+{
+  "require": {
+    "voodoo-rocks/deployer": "^4.1"
+  }
+}

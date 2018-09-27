@@ -1,0 +1,7 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser
+    config:
+        PhpBrowser:
+            url: 'http://do.voodoo-mobile.com/wedo'

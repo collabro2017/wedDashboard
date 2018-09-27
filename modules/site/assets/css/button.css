@@ -1,0 +1,103 @@
+.btn {
+    text-align : center;
+    padding    : 6px 9px;
+    min-width  : 70px;
+    outline    : none !important;
+    border     : none !important;
+    position   : relative;
+    color      : #ffffff;
+}
+
+.btn:hover,
+.btn:focus {
+    color   : #ffffff;
+    opacity : 0.8;
+    filter  : progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+    background-color : #f3e7e7;
+    font-size        : 14px;
+    font-family      : 'lobster', sans-serif;
+    border-radius    : 30px;
+}
+
+.btn-danger span {
+    font-size : 14px;
+    color     : #cd706e;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color : #e4ecf6;
+    font-size        : 14px;
+    font-family      : 'lobster', sans-serif;
+    border-radius    : 30px;
+}
+
+.btn-primary span {
+    font-size : 14px;
+    color     : #7aa7de;
+}
+
+.btn-out, .btn-out:hover, .btn-out:focus, .btn-out:active {
+    background-color : #dad3dd;
+    min-width        : 1px;
+    border-radius    : 50%;
+}
+
+.btn-transparent, .btn-transparent:hover, .btn-transparent:focus, .btn-transparent:active {
+    background-color : transparent;
+    padding          : 2px;
+    min-width        : 1px;
+    box-shadow       : none;
+    border-radius    : 0;
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active {
+    background-color   : #ffffff;
+    color              : #45433f;
+    font-family        : 'questrial', sans-serif;
+    -webkit-box-shadow : 0 0 5px 0 #45433f;
+    -moz-box-shadow    : 0 0 5px 0 #45433f;
+    box-shadow         : 0 0 5px 0 #45433f;
+}
+
+.btn-submit, .btn-submit:hover, .btn-submit:focus, .btn-submit:active {
+    background-color : #8f7c9b;
+    color            : #ffffff;
+    text-transform   : uppercase;
+    font-family      : 'questrial', sans-serif;
+    border-radius    : 0;
+    height           : 40px;
+}
+
+.grid-toggle {
+    margin-right : 3px;
+}
+
+.grid-toggle.active {
+    box-shadow       : 0 0 0 3px #ffffff;
+    background-color : #ffffff;
+}
+
+.btn-like {
+    padding-left : 32px;
+}
+
+.btn-comment {
+    padding-left : 32px;
+}
+
+.btn-share {
+    margin : 0 5px 0 0;
+}
+
+.btn-download {
+    margin : 0 5px;
+}
+
+.btn-camera {
+    position : absolute;
+    top      : 8px;
+    right    : 15px;
+}
